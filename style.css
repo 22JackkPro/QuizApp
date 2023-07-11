@@ -9,7 +9,6 @@
 
 body{
     background: #4C3D3D;
-    /* width: 100px; */
 }
 
 ::selection{
@@ -187,6 +186,8 @@ body{
     left: 0px;
     height: 3px;
     background: #862B0D;
+    /* width: 550px; */
+
 }
 
 section{
@@ -406,7 +407,19 @@ footer button.show{
  
  /*================ MEDIA QUERIES ( SMALL DEVICE ) =================*/
  @media screen and (max-width: 600px){
-     /* .info_box{
+     .info_box{
         width: 100%;
+     }
+     /* .start_btn{
+        align-items: center;
      } */
+     .quiz_box{
+        width: 100%;
+     }
+     .quiz_box header .time_line{
+        display: none;
+     }
+     .result_box{
+        width: 100%;
+     }
  }
